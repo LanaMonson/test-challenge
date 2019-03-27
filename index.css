@@ -1,0 +1,112 @@
+.content {
+  background-color: white;
+  margin: 24px;
+  padding: 24px;
+  border-radius: 3px;
+  box-shadow: 0px 5px 25px grey;
+}
+
+.banner {
+  display: block;
+  overflow: auto;
+}
+
+.crop {
+  overflow: hidden;
+  height: 160px;
+}
+
+.crop img {
+  width: 100%;
+}
+
+.subcontent {
+  display: inline-block;
+  margin: 10px;
+}
+
+.center-vertically {
+    position: relative;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
+}
+
+body {
+  background-color: lightgrey;
+}
+
+span {
+  display: block;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.subtitle {
+  color: #666666;
+  font-size: 18px;
+}
+
+.circle {
+  background: #c90000;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+
+.centering-container {
+  height: 100%;
+}
+
+.center {
+  margin: auto;
+  overflow: auto;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.btn {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 3px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-secondary {
+  color: #222222;
+  background-color: #f5f5f5;
+}
+
+.btn-secondary:hover {
+  background-color: #d3d1d1;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #c90000;
+}
+
+.btn-primary:hover {
+  background-color: #960303;
+}
+
+.right-align {
+  float: right;
+}
+
+.edit-icon {
+    color: #666666;
+    font-size: 32px;
+    top: 35px;
+}
+
+.edit-icon:hover {
+    color: #444444;
+}
